@@ -1,0 +1,5 @@
+/.github export-ignore
+/.gitignore export-ignore
+/.editorconfig export-ignore
+/package.json export-ignore
+/assets export-ignore

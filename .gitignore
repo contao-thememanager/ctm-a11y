@@ -1,0 +1,11 @@
+# Composer
+/composer.lock
+/vendor/
+/assets/
+
+# Node
+/package-lock.json
+/node_modules/
+
+# IDE
+/.idea

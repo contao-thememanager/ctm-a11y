@@ -1,0 +1,8 @@
+services:
+    _defaults:
+        autoconfigure: true
+
+    ContaoThemeManager\Accessibility\EventSubscriber\KernelRequestSubscriber:
+        arguments:
+            - '@contao.routing.scope_matcher'
+            - '@translator'

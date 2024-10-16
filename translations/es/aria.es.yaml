@@ -1,0 +1,9 @@
+ctm:
+    aria:
+        menu:
+            main:       Menu principale
+            sub:        Menú secundario
+            toggle:     'Alternar menú: '
+            expand:     'Expandir menú: '
+            collapse:   'Colapsar menú: '
+            back:       Atrás

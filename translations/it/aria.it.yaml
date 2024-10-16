@@ -1,0 +1,9 @@
+ctm:
+    aria:
+        menu:
+            main:       Menu principale
+            sub:        Sottomenu
+            toggle:     'Espandi/riduci menu: '
+            expand:     'Espandi menu: '
+            collapse:   'Riduci menu: '
+            back:       Indietro

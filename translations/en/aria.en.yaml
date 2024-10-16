@@ -1,0 +1,9 @@
+ctm:
+    aria:
+        menu:
+            main:       Main menu
+            sub:        Submenu
+            toggle:     'Toggle menu: '
+            expand:     'Expand menu: '
+            collapse:   'Collapse menu: '
+            back:       Back

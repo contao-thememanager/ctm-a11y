@@ -1,0 +1,3 @@
+<?php
+$GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaothememanageraccessibility/assets/js/a11y.js|static';
+$GLOBALS['TL_HEAD'][] = "<script>window.addEventListener('load',()=>{window.a11y=new Accessibility()})</script>";
