@@ -1,0 +1,66 @@
+@media (min-width: $navigation-behaviour-min-width) {
+
+  // Core
+  header .nav {
+
+    .level_2 {
+
+      li:hover {
+
+        > ul {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // Patch
+  header .main-navigation {
+
+    .level_2 {
+      visibility: hidden;
+    }
+
+    .level_1 {
+
+      li {
+
+        &:hover {
+
+          > .level_2 {
+            opacity: 0;
+          }
+        }
+
+        &.nav-expanded {
+
+          > .level_2 {
+            opacity: 1;
+            pointer-events: revert;
+            transform: rotateZ(0);
+
+            > li { opacity: 1; }
+
+            &, & > li {
+              transition: opacity 0.3s, transform 0.3s;
+              transition-delay: .05s;
+            }
+          }
+
+          > ul {
+            display: flex;
+            visibility: visible;
+          }
+        }
+
+        &.submenu {
+
+          &:before,
+          > .submenu:before {
+            content: none;
+          }
+        }
+      }
+    }
+  }
+}

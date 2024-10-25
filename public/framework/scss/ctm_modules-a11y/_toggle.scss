@@ -1,0 +1,51 @@
+.btn-toggle-submenu {
+  all: revert;
+
+  margin: auto;
+  padding: 0;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: var(--btsr, 1px);
+
+  width: 1.7em;
+  height: 1.8em;
+
+  border: none;
+  background: none !important;
+  color: currentColor !important;
+
+  cursor: pointer;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:before {
+    @include icon('\e985', 1.2em);
+    transform: rotateZ(var(--btsz, 0deg));
+    transform-origin: 48% 50%;
+    transition: transform 0.3s cubic-bezier(0.2, 0.6, 0.3, 1.1);
+  }
+}
+
+.nav-expanded {
+
+  > .btn-toggle-submenu {
+    --btsz: -180deg;
+  }
+}
+
+.level_2 {
+  --btsr: 11px;
+  --btsz: -90deg;
+
+  .nav-expanded {
+
+    > .btn-toggle-submenu {
+      --btsz: -270deg;
+    }
+  }
+}
