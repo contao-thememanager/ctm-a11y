@@ -7,3 +7,4 @@ ctm:
             expand:     'Menü ausklappen: '
             collapse:   'Menü zuklappen: '
             back:       Zurück
+            to_menu:    Zum Menübutton

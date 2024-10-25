@@ -7,3 +7,4 @@ ctm:
             expand:     'Expand menu: '
             collapse:   'Collapse menu: '
             back:       Back
+            to_menu:    To menu button

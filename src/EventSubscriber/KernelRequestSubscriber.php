@@ -41,7 +41,8 @@ class KernelRequestSubscriber implements EventSubscriberInterface
                 "menu_toggle:'"   . $this->translator->trans('ctm.aria.menu.toggle', [], 'aria') . "'," .
                 "menu_expand:'"   . $this->translator->trans('ctm.aria.menu.expand', [], 'aria') . "'," .
                 "menu_collapse:'" . $this->translator->trans('ctm.aria.menu.collapse', [], 'aria') . "'," .
-                "menu_back:'"     . $this->translator->trans('ctm.aria.menu.back', [], 'aria') . "'" .
+                "menu_back:'"     . $this->translator->trans('ctm.aria.menu.back', [], 'aria') . "'," .
+                "menu_to:'"       . $this->translator->trans('ctm.aria.menu.to_menu', [], 'aria') . "'" .
             '}</script>';
         }
     }
