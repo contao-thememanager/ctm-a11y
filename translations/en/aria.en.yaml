@@ -8,3 +8,5 @@ ctm:
             collapse:   'Collapse menu: '
             back:       Back
             to_menu:    To menu button
+
+        scroll_to_top:  Scroll to top

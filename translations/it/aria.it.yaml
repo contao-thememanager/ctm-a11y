@@ -8,3 +8,5 @@ ctm:
             collapse:   'Riduci menu: '
             back:       Indietro
             to_menu:    Al pulsante del menu
+
+        scroll_to_top:  Scorri verso l'alto

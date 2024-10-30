@@ -8,3 +8,5 @@ ctm:
             collapse:   'Menü zuklappen: '
             back:       Zurück
             to_menu:    Zum Menübutton
+
+        scroll_to_top:  Scroll nach oben

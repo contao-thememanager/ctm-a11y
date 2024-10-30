@@ -8,3 +8,5 @@ ctm:
             collapse:   'Colapsar menú: '
             back:       Atrás
             to_menu:    Al botón de menú
+
+        scroll_to_top:  Desplazar hacia arriba

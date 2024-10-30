@@ -1,0 +1,19 @@
+#scrollTop {
+  // Button resets
+  --btn-1-bg: transparent;
+  --btn-1-bg-hvr: transparent;
+  --btn-1-clr: var(--text-clr-base);
+  --btn-1-clr-hvr: var(--text-clr-base);
+  --btn-tf: inherit;
+  --btn-tf-hvr: inherit;
+  --btn-td: inherit;
+  --btn-td-hvr: inherit;
+  --btn-bdr: none;
+  --btn-bdr-r: revert;
+  --btn-p-2: 0;
+
+  > button {
+    position: absolute;
+    inset: 0;
+  }
+}
