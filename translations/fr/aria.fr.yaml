@@ -7,6 +7,6 @@ ctm:
             expand:     'Développer le menu: '
             collapse:   'Fermer le menu: '
             back:       Retour
-            to_menu:    Bouton d'accès au menu
+            to_menu:    Bouton d\'accès au menu
 
         scroll_to_top:  Revenir en haut
