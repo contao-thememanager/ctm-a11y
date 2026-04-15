@@ -1,3 +1,13 @@
 <?php
 $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/contaothememanageraccessibility/assets/js/a11y.js|static';
+$GLOBALS['TL_HEAD'][] = '<script>const navAriaLabels={' .
+                        "menu_main:'" . $this->trans('ctm.aria.menu.main', [], 'aria') . "'," .
+                        "menu_sub:'" . $this->trans('ctm.aria.menu.sub', [], 'aria') . "'," .
+                        "menu_toggle:'" . $this->trans('ctm.aria.menu.toggle', [], 'aria') . "'," .
+                        "menu_expand:'" . $this->trans('ctm.aria.menu.expand', [], 'aria') . "'," .
+                        "menu_collapse:'" . $this->trans('ctm.aria.menu.collapse', [], 'aria') . "'," .
+                        "menu_back:'" . $this->trans('ctm.aria.menu.back', [], 'aria') . "'," .
+                        "menu_to:'" . $this->trans('ctm.aria.menu.to_menu', [], 'aria') . "'," .
+                        "scroll_to_top:'" . $this->trans('ctm.aria.scroll_to_top', [], 'aria') . "'" .
+                        '}</script>';
 $GLOBALS['TL_HEAD'][] = "<script>window.addEventListener('load',()=>{window.a11y=new Accessibility()})</script>";
